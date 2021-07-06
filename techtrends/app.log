@@ -1,0 +1,47 @@
+2021-07-06 12:57:50,118 :  * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+2021-07-06 12:57:50,118 :  * Restarting with stat
+2021-07-06 12:57:50,242 :  * Debugger is active!
+2021-07-06 12:57:50,249 :  * Debugger PIN: 191-751-096
+2021-07-06 12:58:05,632 : About us page is retrieved
+2021-07-06 12:58:05,652 : 127.0.0.1 - - [06/Jul/2021 12:58:05] "[37mGET /about HTTP/1.1[0m" 200 -
+2021-07-06 12:58:10,027 : 127.0.0.1 - - [06/Jul/2021 12:58:10] "[37mGET /create HTTP/1.1[0m" 200 -
+2021-07-06 12:58:15,998 : A new article is created: www!
+2021-07-06 12:58:15,999 : 127.0.0.1 - - [06/Jul/2021 12:58:15] "[32mPOST /create HTTP/1.1[0m" 302 -
+2021-07-06 12:58:16,015 : 127.0.0.1 - - [06/Jul/2021 12:58:16] "[37mGET / HTTP/1.1[0m" 200 -
+2021-07-06 12:58:32,085 : Article "2020 CNCF Annual Report" retrieved!
+2021-07-06 12:58:32,093 : 127.0.0.1 - - [06/Jul/2021 12:58:32] "[37mGET /1 HTTP/1.1[0m" 200 -
+2021-07-06 13:00:03,128 :  * Detected change in '/home/lab_530/Udacity/Cloud_Native/nd064_course_1/my_project/techtrends/app.py', reloading
+2021-07-06 13:00:03,170 :  * Restarting with stat
+2021-07-06 13:00:03,295 :  * Debugger is active!
+2021-07-06 13:00:03,300 :  * Debugger PIN: 138-666-123
+2021-07-06 13:00:05,279 :  * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+2021-07-06 13:00:05,279 :  * Restarting with stat
+2021-07-06 13:00:05,392 :  * Debugger is active!
+2021-07-06 13:00:05,397 :  * Debugger PIN: 119-873-977
+2021-07-06 13:00:11,416 : Article "2020 CNCF Annual Report" retrieved!
+2021-07-06 13:00:11,424 : 127.0.0.1 - - [06/Jul/2021 13:00:11] "[37mGET /1 HTTP/1.1[0m" 200 -
+2021-07-06 13:00:58,745 :  * Detected change in '/home/lab_530/Udacity/Cloud_Native/nd064_course_1/my_project/techtrends/app.py', reloading
+2021-07-06 13:00:58,788 :  * Restarting with stat
+2021-07-06 13:00:58,905 :  * Debugger is active!
+2021-07-06 13:00:58,909 :  * Debugger PIN: 326-578-369
+2021-07-06 13:01:58,361 :  * Detected change in '/home/lab_530/Udacity/Cloud_Native/nd064_course_1/my_project/techtrends/app.py', reloading
+2021-07-06 13:01:58,405 :  * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 376-507-941
+ * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-790-436
+About us page is retrieved
+127.0.0.1 - - [06/Jul/2021 13:02:08] "[37mGET /about HTTP/1.1[0m" 200 -
+ * Detected change in '/home/lab_530/Udacity/Cloud_Native/nd064_course_1/my_project/techtrends/app.py', reloading
+ * Restarting with stat
+ * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 190-864-815
+About us page is retrieved
+127.0.0.1 - - [06/Jul/2021 13:04:28] "[37mGET /about HTTP/1.1[0m" 200 -
+127.0.0.1 - - [06/Jul/2021 13:04:36] "[37mGET / HTTP/1.1[0m" 200 -
+Article "2020 CNCF Annual Report" retrieved!
+127.0.0.1 - - [06/Jul/2021 13:04:37] "[37mGET /1 HTTP/1.1[0m" 200 -

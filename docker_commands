@@ -1,0 +1,37 @@
+## Docker commands used to build the application 
+docker build -t techtrends .
+
+## Docker commands used to run the application
+docker run -d -p 7111:3111 techtrends
+
+## Docker commands used to get the application logs
+docker logs 74229ee0282
+# 74229ee0282 is the docker id
+
+## Logs from the container running the TechTrends application
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+2021-07-06 10:28:32,034 :  * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+2021-07-06 10:28:32,035 :  * Restarting with stat
+2021-07-06 10:28:32,153 :  * Debugger is active!
+2021-07-06 10:28:32,154 :  * Debugger PIN: 468-322-437
+2021-07-06 10:31:55,661 : About us page is retrieved
+2021-07-06 10:31:55,694 : 172.17.0.1 - - [06/Jul/2021 10:31:55] "GET /about HTTP/1.1" 200 -
+2021-07-06 10:31:56,984 : 172.17.0.1 - - [06/Jul/2021 10:31:56] "GET / HTTP/1.1" 200 -
+2021-07-06 10:31:57,797 : Article "2020 CNCF Annual Report" retrieved!
+2021-07-06 10:31:57,809 : 172.17.0.1 - - [06/Jul/2021 10:31:57] "GET /1 HTTP/1.1" 200 -
+2021-07-06 10:31:58,541 : 172.17.0.1 - - [06/Jul/2021 10:31:58] "GET / HTTP/1.1" 200 -
+2021-07-06 10:31:59,235 : Article "KubeCon + CloudNativeCon 2021" retrieved!
+2021-07-06 10:31:59,237 : 172.17.0.1 - - [06/Jul/2021 10:31:59] "GET /2 HTTP/1.1" 200 -
+2021-07-06 10:32:00,029 : 172.17.0.1 - - [06/Jul/2021 10:32:00] "GET / HTTP/1.1" 200 -
+2021-07-06 10:32:00,716 : Article "Kubernetes v1.20 Release Notes" retrieved!
+2021-07-06 10:32:00,716 : 172.17.0.1 - - [06/Jul/2021 10:32:00] "GET /3 HTTP/1.1" 200 -
+2021-07-06 10:32:01,508 : 172.17.0.1 - - [06/Jul/2021 10:32:01] "GET / HTTP/1.1" 200 -
+2021-07-06 10:32:02,558 : 172.17.0.1 - - [06/Jul/2021 10:32:02] "GET /create HTTP/1.1" 200 -
+2021-07-06 10:32:11,718 : A new article is created: Test post!
+2021-07-06 10:32:11,721 : 172.17.0.1 - - [06/Jul/2021 10:32:11] "POST /create HTTP/1.1" 302 -
+2021-07-06 10:32:11,730 : 172.17.0.1 - - [06/Jul/2021 10:32:11] "GET / HTTP/1.1" 200 -
+
