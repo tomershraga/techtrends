@@ -32,6 +32,7 @@ app.config['SECRET_KEY'] = 'your secret key'
 # Define the main route of the web application 
 @app.route('/')
 def index():
+    global num_of_posts
     connection = get_db_connection()
     posts = connection.execute('SELECT * FROM posts').fetchall()
     connection.close()
@@ -85,7 +86,10 @@ def healthz():
 def metrics():
     global db_connections_count
     global num_of_posts
-    res = {'db_connection_count': db_connections_count, 'post_count': num_of_posts}
+    connection = get_db_connection()
+    posts = connection.execute('SELECT * FROM posts').fetchall()
+    connection.close()
+    res = {'db_connection_count': db_connections_count, 'post_count': num_of_posts + len(posts)}
     return Response(json.dumps(res), status=200)
 
 # start the application on port 3111
